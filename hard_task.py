@@ -26,8 +26,8 @@
 
 try:
     first_number = float(input("Введите первое число: "))
-    second_nember = float(input("Введите второе число: "))
     operation = input("Введите операцию: ")
+    second_nember = float(input("Введите второе число: "))
     if second_nember == 0 and (operation == 'mod' or 'div' or '/'):
         print("Деление на 0!")
     elif operation == 'mod':
