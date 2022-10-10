@@ -4,13 +4,13 @@
 # - A (7,-5); B (1,-1) -> 7,21
 
 try:
+    from math import sqrt
     print("Введите координаты точки A:")
     point_a_x = float(input("x = "))
     point_a_y = float(input("y = "))
     print("Введите координаты точки B:")
     point_b_x = float(input("x = "))
     point_b_y = float(input("y = "))
-    from math import sqrt
     print("Расстояние между точкой A и B =",round(sqrt((point_a_x - point_b_x)**2 + (point_a_y - point_b_y)**2), 2)) 
 except:
     print("Нужно вводить числа!!!")
