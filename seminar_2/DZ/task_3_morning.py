@@ -9,7 +9,6 @@ def create_string_list(number):
 
 def check_string(str_1, str_2):
     count = 0
-    i = -1
     for i in str_1:
         if str_2 == i:
             count += 1
@@ -18,7 +17,3 @@ def check_string(str_1, str_2):
 size = int(input('Введите количество элементов строки: '))
 str_1 = create_string_list(size)
 str_2 = input('Введите вторую строку: ')
-if check_string(str_1, str_2) == (-1):
-    print('Нет повторов')
-else:
-    print(f"Количество вхождений второй строки в первую = {check_string(str_1, str_2)}")
