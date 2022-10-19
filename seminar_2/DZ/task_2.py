@@ -9,6 +9,7 @@ try:
     count = 1
     if number < 0:
         number *= (-1)
+    else:
         for i in range(1, number + 1):
             count *= i
             prod.append(count)
