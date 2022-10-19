@@ -12,6 +12,7 @@ def sequence(n):
     print(f"Для {n} последовательность = {lst}\nСумма последовательности = {sum}")
 
 try:
-    n = input(int("Веедите число: "))
+    n = int(input("Введите число: "))
+    sequence(n)
 except ValueError:
     print("нужно вводить число!!!")
