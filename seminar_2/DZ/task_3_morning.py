@@ -4,7 +4,7 @@
 def create_string_list(number):
     list = []
     for i in range(number):
-        list.append(input(f'Введите {i + 1}-й элемент строки: '))
+        list.append(input(f"Введите {i + 1}й элемент строки: "))
     return list
 
 def check_string(str_1, str_2):
@@ -14,6 +14,7 @@ def check_string(str_1, str_2):
             count += 1
     return count
 
-size = int(input('Введите количество элементов строки: '))
+size = int(input("Введите количество элементов строки: "))
 str_1 = create_string_list(size)
-str_2 = input('Введите вторую строку: ')
+str_2 = input("Введите вторую строку: ")
+print(f"Количество вхождений второй строки в первую = {check_string(str_1, str_2)}")
