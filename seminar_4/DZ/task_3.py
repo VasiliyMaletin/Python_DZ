@@ -14,7 +14,7 @@ def coefficient_list(lst):
         if lst[i] != 0:
             result += str(lst[i])
             if coefficient - i > 1:
-                result +="X**" + str(coefficient - i)
+                result +="X^" + str(coefficient - i)
             elif coefficient - i == 1:
                 result +="X"
     result += ' = 0'
