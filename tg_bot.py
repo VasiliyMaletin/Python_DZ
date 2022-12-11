@@ -1,9 +1,13 @@
 import telebot 
 from telebot import types 
 from controller import distribution
+from dotenv import load_dotenv, find_dotenv
+import os
 
-API_TOKEN = '5822101823:AAFpIcEd5CiajDT-R_Hzzpeb1riElJBA4QM'
-bot = telebot.TeleBot(API_TOKEN)
+load_dotenv(find_dotenv())
+bot = telebot.TeleBot(os.getenv("TOKEN"))
+
+print('Online')
 
 value = ''
 old_value = ''   
