@@ -38,7 +38,6 @@ keyboard.row(   telebot.types.InlineKeyboardButton('j', callback_data = 'j'),
                 telebot.types.InlineKeyboardButton('=', callback_data = '='))
    
 @bot.message_handler(commands=['start'])
-
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
     button1 = types.KeyboardButton("👋 Привет")
