@@ -37,4 +37,5 @@
   >>
   >`Назад` - *нажав её можно вернуться в предидущее меню*
   >>![Image](https://github.com/VasiliyMaletin/Python_DZ/blob/dz_seminar_9/back.PNG)
+  >
   >`В главное меню` - *нажав её можно вернуться в главное меню*
