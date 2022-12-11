@@ -5,7 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 import os
 
 load_dotenv(find_dotenv())
-bot = telebot.TeleBot(os.getenv("TOKEN"))
+bot = telebot.TeleBot(os.getenv("TOKEN")) # 5822101823:AAFpIcEd5CiajDT-R_Hzzpeb1riElJBA4QM
 
 print('Online')
 
