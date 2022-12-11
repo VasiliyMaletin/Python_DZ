@@ -16,6 +16,7 @@
 * `Кто создал бота?` - *нажав её можно узнать о создателе бота*
 * `Приложения` - *нажав её можно выбрать интересующее приложение*
   >![Image](https://github.com/VasiliyMaletin/Python_DZ/blob/dz_seminar_9/app.PNG)
+  >
   >`Калькулятор` - *нажав её запуститься калькулятор*
   >>![Image](https://github.com/VasiliyMaletin/Python_DZ/blob/dz_seminar_9/calc.PNG)
   >> ### Окно содержит:
